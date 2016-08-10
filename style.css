@@ -3,9 +3,8 @@
     background: #eee;
     width: 300px;
     padding:10px;
+    overflow-y: auto;
 }
-
-
 .box{
     background: #fff;
     width: 200px;
