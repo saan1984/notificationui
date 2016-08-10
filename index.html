@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Notification ui</title>
+    <link href="style.css" rel="stylesheet">
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="bar">
+    <select class="filter">
+        <option>All Notification</option>
+    </select>
+    <div class="box red">
+        <div class="header">
+            <div class='title'>Dear john check below message.</div>
+             <div class="hsbutton">&#9660;</div>
+        </div>
+        <div class="body hide">
+                Lorem ipsum dollar.
+                Lorem ipsum dollar.
+                Lorem ipsum dollar.
+        </div>
+        <div class="footer">
+                <button class="action-button" >Action button</button>
+        </div>
+        </div>
+    </div>
+</body>
+ <script>
+     $(function() {
+         $(".hsbutton").on('click', function(e){
+             $(e.target).closest('.box').find('.body').toggleClass('hide')
+         })
+     });
+
+ </script>
+</html>

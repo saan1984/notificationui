@@ -1,0 +1,58 @@
+.bar{
+    height: 600px;
+    background: #eee;
+    width: 300px;
+    padding:10px;
+}
+
+
+.box{
+    background: #fff;
+    width: 200px;
+    padding: 20px;
+    min-height:100px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 5px auto;
+}
+.filter{
+    margin-left: 30px;
+
+}
+.box .header{
+    float:left;
+}
+.title{
+    float:left;
+    width:75%;
+}
+.hsbutton{
+    font-size: 6px;
+    background: #eee;
+    padding: 5px 7px;
+    border-radius: 100px color: white;
+    position: relative;
+    top: 0px;
+    width: 6px;
+    float: left;
+    color: #ccc;
+    border-radius: 11px;
+    cursor:pointer;
+}
+
+.box .body.hide{
+    display:none
+}
+.box .footer{
+    margin-top: 85px;
+}
+.box .action-button{
+    background: lightblue;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px
+}
+.box.red{
+    border-left: 5px solid red;
+}
